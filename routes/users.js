@@ -4,7 +4,7 @@ var router = express.Router();
 let ratio = 0.75;
 let acc = 1000;
 
-rrouter.get('/', (req, res, next) => {
+router.get('/', (req, res, next) => {
   // Step 3: Modify acc by multiplying it with ratio
   acc *= ratio;
 
